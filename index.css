@@ -1,0 +1,13 @@
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    flex-direction: column-reverse;
+}
+
+.showText {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>landscap-portarait</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>landscap or portarait </h1>
+        <p>Enter width and height then if width ...</p>
+        <div class="test" style="width: 400px; height: 500px;">
+            <div id="showText" class="showText"></div>
+            <form onsubmit="widthGreaterThanHeight() ; return false">
+                <input id="numWidth" type="number" value="0">
+                <input id="numHeight" type="number" value="0">
+                <button type="submit">result</button>
+            </form>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
